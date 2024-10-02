@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+
+    height: 130px;
+    width: 200px;
+
+}
+ul{
+    list-style-type: none;
+}
+
+.first ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.second ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.banner_content{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.courses{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bottom ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+#one{
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-left: 8rem;
+}
+#two{
+    padding:5px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-left: 4rem;
+    margin-top: 10px;
+    margin-right: 50pxa;
+}
+#three{
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-left: 8rem;
+    margin-top: 10px;
+}
