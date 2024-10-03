@@ -21,12 +21,12 @@ ul{
 .first ul{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
 }
 .second ul{
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 50px;
 }
 .banner_content{
     height: 350px;
@@ -51,6 +51,11 @@ ul{
     align-items: center;
     gap: 60px;
 }
+.courses{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 #one{
     padding: 5px;
     border-radius: 15px;
@@ -63,7 +68,7 @@ ul{
     border: 1px solid;
     margin-left: 4rem;
     margin-top: 10px;
-    margin-right: 50pxa;
+    margin-right: 50px;
 }
 #three{
     padding: 5px;
@@ -71,4 +76,16 @@ ul{
     border: 1px solid;
     margin-left: 8rem;
     margin-top: 10px;
+}
+.tabs{
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-left: 200px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
 }
