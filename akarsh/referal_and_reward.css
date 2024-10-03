@@ -10,7 +10,7 @@ body {
     padding: 0px 24px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border: 5px;
+    border-bottom: black 0.5px solid;
 }
 
 .logo img, .user-logo img {
@@ -56,9 +56,9 @@ body {
 
 
 .main{
-    width: 90%;
-    margin: 0px 40px;
-    padding: 0px 24px;
+    width: 85%;
+    margin: 0px 45px;
+    padding: 0px 25px;
 }
 .main_title{
     padding: 16px;
@@ -80,4 +80,129 @@ body {
 .box_3{
     color:#196ae5;
     border: none;
+}
+
+.btn_1{
+    border-width: 0;
+    margin: 10px;
+}
+span{
+    color: #196ae5;
+}
+.img_cnt1 img{
+    height: 100%;
+    width: 101%;
+}
+.container_2{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+
+.background_cnt2 {
+    width: 100%;
+    height: auto;
+    background-image: url('bgr_cnt.jpg');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image in the div */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 24px;
+}
+.info{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+.sub_cnt1 span{
+    color: yellow;
+}
+h4.sub_cnt1{
+    margin: 0;
+
+}
+.merge_info_how_link{
+    display: flex;
+}
+.merge_info_how_link a{
+    color: yellow;
+}
+
+li{
+    color: white;
+    line-height: 2;
+}
+.link_box{
+    
+    border: transparent;
+    border-radius: 6px;
+    display: flex;
+    grid-template-columns: 75% 25%;
+    width: 75%;
+    background-color: #fff;
+    color: grey;
+}
+
+.cp_link{
+    width: 68%;
+    padding: 8px 24px;
+    text-align: center;
+    color: black;
+    background-color: #196ae5;
+    margin-top: 5px;
+    border-radius: 4px;   
+}
+.under_link {
+    font-size: 16px;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    -webkit-box-orient: vertical;
+    width: 75%;
+    white-space: nowrap;
+    align-self: center;
+    padding: 8px;
+}
+.s1 button{
+    padding: 6px 12px;
+    border-width: 0;
+}
+
+.container_3{
+    padding: 16px;
+    margin-left: 4%;
+    
+}
+.container_3 span{
+    color: black;
+
+}
+.course_imgs{
+    display: flex;
+    width: 50%;
+}
+.course_imgs img{
+    width: 60%;
+    margin: 5px;
+}
+footer{
+    padding: 10px;
+    margin: 10px;
+}
+.Foot_1_cnt{
+    margin: 17px 125px;
+    text-align: center;
+}
+.item_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35%;
+    text-align: center;
+}
+.item1{
+    margin-right: 10%;
 }
